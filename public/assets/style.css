@@ -4,95 +4,136 @@
 }
 
 body {
-    font-family: 'Pacifico', cursive;
     color: #11101d;
+    width: 100%;
+    height: 100%;
 }
 
-.navbar1{
+.navbar1 {
     display: flex;
     justify-content: space-between;
     padding: 10px 0px;
     background-color: #11101d;
     padding-left: 65px;
     padding-right: 35px;
+    height: 45px;
 }
 
-.svg-inline--fa{
+.svg-inline--fa {
     margin-right: 8px;
     /* size: 12px; */
     font-size: 5px;
     width: 15px;
 }
 
-.navbar2 ul{
+.navbar2 ul {
     display: flex;
     list-style: none;
     color: azure;
 }
-.navbar2 ul li{
+
+.navbar2 ul li {
     padding-right: 10px;
     display: flex;
     padding-left: 10px;
 }
-.navbar2 ul img{
+
+.navbar2 ul img {
     height: 15px;
     width: 15px;
 }
-.navbar2 ul li a{
+
+.navbar2 ul li a {
     text-decoration: none;
     color: white;
     font-family: sans-serif;
 }
 
-.navbar3{
+.navbar3 {
     display: flex;
     justify-content: space-around;
 }
-.navbar3 ul{
+
+.navbar3 ul {
     display: flex;
     list-style: none;
     color: azure;
     padding-left: 10px;
     padding-right: 10px;
 }
-.navbar3 ul li{
+
+.navbar3 ul li {
     padding-right: 10px;
     padding-left: 10px;
 }
-.navbar3 ul img{
+
+.navbar3 ul img {
     height: 15px;
     width: 15px;
 }
-.navbar3 ul li a{
+
+.navbar3 ul li a {
     text-decoration: none;
     color: white;
     font-family: sans-serif;
 }
 
 nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 40px 0;
-    padding-left: 150px;
+    padding-top: 20px;
+    height: 90px;
+    padding-left: 110px;
     padding-right: 100px;
+    background: white;
+    position: sticky;
+    top: 0;
 }
-nav ul img{
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.my-account {
+    color: #414142;
+    padding-left: 90px;
+    padding-top: 30px;
+
+}
+
+.breadcrumb-container {
+    background-color: #fa6161;
+
+    padding: 30px;
+}
+
+.breadcrumb {
+    padding: 0;
+    margin: 0;
+    margin-left: 80px;
+}
+
+nav ul img {
     height: 10px;
     width: 10px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
     width: 40%;
     justify-content: space-between;
 }
-nav ul li a{
+
+nav ul li a {
     color: #11101d;
     text-decoration: none;
     font-size: 0.8em;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: #f55779;
 }
 /* Login css */
@@ -102,3 +143,35 @@ nav ul li a:hover{
 .form-login{
     padding-right: 10px;
 }
+
+
+/* FOOTOOPOER */
+.nav {
+    background: #11101d;
+}
+
+.card {
+    padding: 50px;
+}
+
+form .form-bg {
+    background: white;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+}
+
+.bg-custom-black {
+    background-color: #11101d;
+    color: white;
+}
+
+.p-footer {
+    padding: 6rem;
+    height: 100%;
+}
+
+
+/* FOOTOOPOER */

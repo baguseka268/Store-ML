@@ -21,6 +21,11 @@ Route::get('header', function () {
     return view('header');
 });
 
+
 Route::get('login', function () {
     return view('login');
+});
+
+Route::get('register', function () {
+    return view('register');
 });
