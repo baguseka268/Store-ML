@@ -95,3 +95,10 @@ nav ul li a{
 nav ul li a:hover{
     color: #f55779;
 }
+/* Login css */
+.card{
+    margin-right: 50px;
+}
+.form-login{
+    padding-right: 10px;
+}
