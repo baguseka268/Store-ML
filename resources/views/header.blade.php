@@ -28,7 +28,8 @@
                 <li><a href="https://www.youtube.com/"><img src="img/youtube-24.png" alt=""></a></li>
             </ul>
             <ul>
-                <li><a href="">Login / Register</a></li>
+                <li><a href="/login">Login</a></li>
+            <li><a href="/register">Register</a></li>
             </ul>
             <ul>
                 <li><a href=""><img src="img/heart-69-24.png" alt=""></a></li>
