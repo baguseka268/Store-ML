@@ -70,7 +70,7 @@
             <div class="collapse navbar-collapse">
                     <div class="my-account">
                         <h3>My Account</h3>
-                        <h5>Login</h5>
+                        <h5>Register</h5>
                     </div>
             </div>
             <form class="d-flex">
