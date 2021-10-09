@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous"><link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <div class="navbar1">
@@ -55,11 +54,6 @@
         </ul>
 </nav>
 
-<div aria-label="breadcrumb" class="breadcrumb-container">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="/">Home</a></li>
-    </ol>
-</div>
 
 <div class="navbar navbar-expand-lg navbar-light bg-light" style="z-index: -1">
     <div class="container-fluid">
@@ -72,26 +66,31 @@
 </div>
 
 {{-- Konten --}}
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" style="height: 400px">
       <div class="carousel-item active">
-        <img class="d-block w-100git" src="..." alt="First slide">
+        <img src="img/ml1.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="..." alt="Second slide">
+        <img src="img/ml2.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="..." alt="Third slide">
+        <img src="img/ml3.jpg" class="d-block w-100" alt="...">
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
 {{-- subsriber --}}
@@ -149,10 +148,8 @@
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
           </ul>
         </div>
-  
-        
-  
-      <div class="d-flex justify-content-between py-4 my-4 border-top">
+
+      <div class="d-flex justify-content-between border-top">
         <p>&copy; 2021 Company, Inc. All rights reserved.</p>
         <ul class="list-unstyled d-flex">
           <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
@@ -163,6 +160,8 @@
     </footer>
   </div>
 <!-- footer -->
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
 </body>
 </html>
