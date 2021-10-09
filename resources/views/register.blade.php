@@ -89,7 +89,7 @@
     {{-- form lojin --}}
     <div class="container-row">
         <div class="col-md-8 p-4">
-            <div class="card"  style="z-index: -1">
+            <div class="card">
                 <div class="card-body">
                     <form class="form-bg">
                         <div class="mb-3">

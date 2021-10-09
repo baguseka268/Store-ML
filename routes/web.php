@@ -22,9 +22,7 @@ Route::get('header', function () {
 });
 
 
-Route::get('login', function () {
-    return view('login');
-});
+Route::get('/login', [LoginController::class, 'index']);
 
 Route::get('register', function () {
     return view('register');
