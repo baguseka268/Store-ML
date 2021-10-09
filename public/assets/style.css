@@ -105,7 +105,6 @@ a {
 
 .breadcrumb-container {
     background-color: #fa6161;
-
     padding: 30px;
 }
 
@@ -113,6 +112,7 @@ a {
     padding: 0;
     margin: 0;
     margin-left: 80px;
+    background-color: #fa6161;
 }
 
 nav ul img {
@@ -136,11 +136,13 @@ nav ul li a {
 nav ul li a:hover {
     color: #f55779;
 }
+
 /* Login css */
-.card{
+.card {
     margin-right: 50px;
 }
-.form-login{
+
+.form-login {
     padding-right: 10px;
 }
 
@@ -150,8 +152,9 @@ nav ul li a:hover {
     background: #11101d;
 }
 
-.card {
-    padding: 50px;
+.card-regis {
+    padding: 30px 50px;
+    margin: 90px;
 }
 
 form .form-bg {
