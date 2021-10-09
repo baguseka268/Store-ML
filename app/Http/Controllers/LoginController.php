@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Auth;
+use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
@@ -43,9 +43,9 @@ class LoginController extends Controller
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
 
-            return redirect()->itended('/home');
+            return redirect()->intended('/');
         }
-        return back()->withErrors('Login error!');
+        return back()->with('error', 'Isien seng genah COK !');
     }
 
     /**

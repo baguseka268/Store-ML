@@ -14,7 +14,7 @@ use App\User;
 |
 */
 Route::get('/register', 'RegisterController@index');
-Route::post('/register', 'RegisterController@register');
+Route::post('/register', 'RegisterController@store');
 
 Route::get('/login', [LoginController::class, 'index']);
 

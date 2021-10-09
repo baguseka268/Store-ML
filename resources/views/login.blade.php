@@ -77,10 +77,20 @@
         </form>
     </div>
 </div>
+
   <div class="container">
     <div class="form-login justify-content-between pt-5 row">
         <div class="card col-7">
             <div class="card-body">
+                
+@if(Session::has('error'))
+<div class="alert alert-danger">
+    {{ Session::get('error') }}
+    @php
+        Session::forget('error');
+    @endphp
+</div>
+@endif
                 <div class="form-login">
                     <form action="{{route('login.store')}}" method="POST">
                         @csrf
