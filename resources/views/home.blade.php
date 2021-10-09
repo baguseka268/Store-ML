@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous"><link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <div class="navbar1">
@@ -91,6 +92,43 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+  </div>
+
+  <h4>INI YANG PADA MAU JUAL AKUN</h4>
+
+  <div class="list-content">
+    <div class="row justify-content-center">
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <img src="img/acc1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Deskripsi</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Lihat profil</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <img src="img/acc1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Deskripsi</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Lihat profil</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <img src="img/acc1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Deskripsi</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Lihat profil</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 {{-- subsriber --}}

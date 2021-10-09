@@ -184,3 +184,19 @@ footer {
 }
 
 /* FOOTOOPOER */
+
+/* list-content */
+
+.list-content {
+    padding: 40px 90px;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+h4 {
+    text-align: center;
+    color: #414142;
+    text-decoration: underline;
+}
