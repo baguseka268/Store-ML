@@ -185,6 +185,28 @@ footer {
 
 /* FOOTOOPOER */
 
+.styles-step-header {
+    text-align: center;
+    color: rgb(27, 27, 27);
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.step-header {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+    overflow: auto hidden;
+}
+
+.step-tittle {
+    font-size: 22px;
+}
+
+.step-desk {
+    text-align: center;
+}
+
 /* list-content */
 
 .list-content {
@@ -197,6 +219,7 @@ footer {
 
 .card {
     margin-top: 30px;
+    border-radius: 30px;
 }
 
 h4 {

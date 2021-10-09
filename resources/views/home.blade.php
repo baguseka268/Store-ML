@@ -7,6 +7,7 @@
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
   <div class="navbar1">
@@ -94,7 +95,39 @@
     </button>
   </div>
 
-  <h4>INI YANG PADA MAU JUAL AKUN</h4>
+  <div class="container py-4">
+    <div class="styles-step-header">CARA KERJANYA
+    </div>
+    <div class="step-header">
+      <div class="step-desk">
+        <div class="step-icon">
+          <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="user" class="svg-inline--fa fa-user fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
+        </div>
+        <h5>PENDAFTARAN</h5>
+        <p>Daftar gratis untuk membuka lebih banyak fitur</p>
+      </div>
+      <div class="step-desk">
+        <h5>DETAIL</h5>
+        <p>Daftar gratis untuk membuka lebih banyak fitur</p>
+      </div>
+      <div class="step-desk">
+        <h5>PEMBAYARAN</h5>
+        <p>Daftar gratis untuk membuka lebih banyak fitur</p>
+      </div>
+      <div class="step-desk">
+        <h5>PENGIRIMAN</h5>
+        <p>Daftar gratis untuk membuka lebih banyak fitur</p>
+      </div>
+      <div class="step-desk">
+        <h5>KONFIRMASI</h5>
+        <p>Daftar gratis untuk membuka lebih banyak fitur</p>
+      </div>
+      <div class="step-desk">
+        <h5>UMPAN BALIK</h5>
+        <p>Daftar gratis untuk membuka lebih banyak fitur</p>
+      </div>
+    </div>
+  </div>
 
   <div class="list-content">
     <div class="row justify-content-center">
