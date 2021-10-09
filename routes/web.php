@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Mlstore;
+use App\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,5 +20,7 @@ Route::post('/register', 'RegisterController@register');
 Route::get('/', function(){
     return view('home');
 });
+
 Route::resource('kontol', TController::class);
-Route::get('/login', 'LoginController@login');
+
+Route::resource('login', LoginController::class);
