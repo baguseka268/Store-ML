@@ -172,9 +172,15 @@ footer {
 }
 
 .p-footer {
-    padding: 6rem;
+    padding: 3rem;
     height: 100%;
 }
 
+.p-subs {
+    padding: 15px;
+    margin-left: 40px;
+    margin-right: 60px;
+    height: 100%;
+}
 
 /* FOOTOOPOER */

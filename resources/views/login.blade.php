@@ -47,18 +47,17 @@
     </div>
 
         <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">SHOP                 <img src="img/down-chevron.png" alt=""></a></li>
-            <li><a href="">MY ACCOUNT               <img src="img/down-chevron.png" alt=""></a></li>
-            <li><a href="">BLOG</a></li>
-            <li><a href="">CONTACT US</a></li>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/shop">SHOP                 <img src="img/down-chevron.png" alt=""></a></li>
+            <li><a href="myaccount">MY ACCOUNT               <img src="img/down-chevron.png" alt=""></a></li>
+            <li><a href="blog">BLOG</a></li>
+            <li><a href="contactus">CONTACT US</a></li>
         </ul>
 </nav>
 <div aria-label="breadcrumb" class="breadcrumb-container">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="#">Home</a></li>
-      <li class="breadcrumb-item"><a href="#">Library</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Data</li>
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="/login">Login</a></li>
     </ol>
 </div>
 <div class="navbar navbar-expand-lg navbar-light bg-light" style="z-index: -1">
