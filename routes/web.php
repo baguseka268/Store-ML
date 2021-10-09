@@ -24,3 +24,4 @@ Route::resource('kontol', TController::class);
 Route::resource('login', LoginController::class);
 
 Route::get('/home', 'ViewController@index');
+Route::get('/', 'ViewController@index');
