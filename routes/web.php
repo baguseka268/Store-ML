@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Mlstore;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,10 +13,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/register', 'RegisterController@index');
+Route::post('/register', 'RegisterController@register');
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::get('header', function () {
     return view('header');
@@ -24,6 +24,8 @@ Route::get('header', function () {
 
 Route::get('/login', [LoginController::class, 'index']);
 
-Route::get('register', function () {
-    return view('register');
+Route::get('/', function(){
+    return view('home');
 });
+Route::resource('kontol', TController::class);
+Route::get('/login', 'LoginController@login');

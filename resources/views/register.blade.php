@@ -57,9 +57,6 @@
                 <li><a href="">CONTACT US</a></li>
             </ul>
     </nav>
-    {{-- nav --}}
-
-    {{-- breadcrumb --}}
     <div aria-label="breadcrumb" class="breadcrumb-container">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -67,7 +64,6 @@
           <li class="breadcrumb-item active" aria-current="page">Data</li>
         </ol>
     </div>
-    {{-- breadcrumb --}}
     <div class="navbar navbar-expand-lg navbar-light bg-light" style="z-index: -1">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,36 +85,29 @@
     {{-- form lojin --}}
     <div class="container-row">
         <div class="col-md-8 p-4">
-            <div class="card">
+            <div class="card card-regis">
                 <div class="card-body">
-                    <form class="form-bg">
+                  
+                  <form class="form-bg" action='/register' method="POST">
+                      @csrf
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Username</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <div id="username" class="form-text">
-                        </div>
+                            <label for="">Username</label>
+                            <input type="text" class="form-control" name="input_username">
+                        </div> 
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
-        
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Nomor Hpmu Cok!</label>
-                            <input type="string" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">
+                            <label for="">Email address</label>
+                            <input type="email" class="form-control" name="input_email">
                         </div>
         
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <label for="">Nomor Hpmu Cok!</label>
+                            <input type="text" class="form-control" name="input_number">
                         </div>
         
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Verfy Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <label for="">Password</label>
+                            <input type="password" class="form-control" name="input_password">
                         </div>
-        
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">Check me out</label>
