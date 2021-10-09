@@ -43,11 +43,9 @@ class LoginController extends Controller
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
 
-            return redirect()->intended('register');
+            return redirect()->itended('/home');
         }
-        return back()->withErrors([
-            'username' => 'The provided credentials do not match our records.',
-        ]);
+        return back()->withErrors('Login error!');
     }
 
     /**

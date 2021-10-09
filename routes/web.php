@@ -16,18 +16,11 @@ use App\User;
 Route::get('/register', 'RegisterController@index');
 Route::post('/register', 'RegisterController@register');
 
-
-Route::get('header', function () {
-    return view('header');
-});
-
-
 Route::get('/login', [LoginController::class, 'index']);
 
-Route::get('/', function(){
-    return view('home');
-});
 
 Route::resource('kontol', TController::class);
 
 Route::resource('login', LoginController::class);
+
+Route::get('/home', 'ViewController@index');

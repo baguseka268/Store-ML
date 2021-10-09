@@ -84,14 +84,13 @@
                 <div class="form-login">
                     <form action="{{route('login.store')}}" method="POST">
                         @csrf
-                        <div class="form-group">
-                          <label for="exampleInputEmail1">Username</label>
-                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="input_username">
-                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                          <label for="exampleInputPassword1">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="input_password">
+                        <div class="mb-3">
+                            <label for="">Username</label>
+                            <input type="text" class="form-control" name="username">
+                        </div> 
+                        <div class="mb-3">
+                            <label for="">Password</label>
+                            <input type="password" class="form-control" name="password">
                         </div>
                         <div class="form-check">
                           <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -104,21 +103,7 @@
           </div>
 
         <div class="navbar-login col-4">
-            iki konten navbar jamput
-            iki konten navbar jamput
-            iki konten navbar jamput
-            iki konten navbar jamput
-            iki konten navbar jamput
-            iki konten navbar jamput
-            iki konten navbar jamput
-            iki konten navbar jamput
-            iki konten navbar jamput
-            iki konten navbar jamput
-            iki konten navbar jamput
-            iki konten navbar jamput
-            iki konten navbar jamput
-            iki konten navbar jamput
-            iki konten navbar jamput
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit praesentium, sit natus pariatur nulla magni distinctio quos dolorum itaque aut minus quam unde voluptate eum ipsam? Quasi amet voluptate aliquam.
         </div>
     </div>
 </div>
